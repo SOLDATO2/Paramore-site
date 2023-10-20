@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+}
+
+main {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+header {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    position:absolute;
+    right: 0%; 
+    margin: 20px;
+    width: auto;
+}
+
+footer{
+    margin-top: 20px;
+    color: aliceblue;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: rgb(26, 25, 25);
+}
+
+footer img{
+    float: right;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0.1%;/*Mudei aqui*/
+
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin-left: 7%;
+}
+
+.imagemCronograma {
+    background-image: url("./imagens/Cronograma.jpg");
+
+    min-height: 380px;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+
+/* Estilo da tabela Unica coisa que fiz, o resto copiei do Thiago */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #1914149f; 
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2%;
+}
+
+/* Estilo do cabeçalho */
+table th {
+    background-color: #191414; 
+    padding: 30px;
+}
+
+/* Estilo das células de dados */
+table td {
+    padding: 30px;
+    border: 2px solid #191414; /*Cor dos riscos entre as linhas e colunas*/
+}
+
+/* Estilo das linhas ímpares (pra ir alternando de cor) */
+table tr:nth-child(odd) {
+    background-color: #282828; 
+}

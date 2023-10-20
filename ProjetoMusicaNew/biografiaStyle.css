@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width:90%;
+}
+
+main{
+    color:aliceblue;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+}
+
+
+
+.imagemBio{
+    background-image: url("./imagens/Biografia.jpg");
+
+    min-height: 380px;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+    position: relative;
+}
+
+.container {
+    position:absolute;
+    right: 0%;
+    margin: 20px;
+    width: auto;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+section{
+    border-radius: 25px;
+    width: 80%;
+    height: 302px; /*Nao é o ideal, deveria ter algum jeito de escalar junto
+    com o tamanho da imagem*/
+
+    
+
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 50px;
+    background-color: rgb(59, 59, 59);
+}
+
+section p {
+
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    word-spacing: 5px;
+    text-align: justify;
+    
+
+    overflow-y: hidden;
+}
+
+
+
+
+
+#paramoreIMG{
+    margin-right: 50px;
+    width: 35.3%;
+    float: left;
+}
+
+
+footer{
+    
+    /*position: absolute;
+    bottom: 0; Esses 2 tavam dando problema no footer*/
+    margin-top: 50px;
+    float: left;
+    color: aliceblue;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: rgb(26, 25, 25);
+}
+
+footer img{
+    float: right;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    text-align: center;
+    
+}
+
+
+article{
+    background-color: rgb(46, 46, 46);
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+article h1{
+    word-spacing: 10px;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+article p{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+
+
+.integrantes{
+    color: aliceblue;
+    text-align: center;
+}
+/*--------------------------*/
+/*Hayley*/
+#hayley{
+    margin-right: 50px;
+    width: 22.7%;
+    float: left;
+}
+
+#hayleySection{
+    width: 70%;
+}
+
+#hayleySection p{
+
+    font-size: large;
+
+    width: 70%;
+
+    padding-top: 5%;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+
+/*--------------------------*/
+
+/*Zacfarro*/
+
+
+#zacfarro{
+    margin-right: 50px;
+    width: 22.7%;
+    float: left;
+}
+
+#zacfarroSection{
+    width: 70%;
+}
+
+
+#zacfarroSection p{
+
+    font-size: large;
+
+    padding-top: 5%;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+
+/*--------------------------*/
+
+/*tayloryorkyall*/
+
+#tayloryorkyall{
+    margin-right: 50px;
+    width: 22.7%;
+    float: left;
+}
+
+#tayloryorkyallSection{
+    width: 70%;
+}
+
+
+#tayloryorkyallSection p{
+
+
+    font-size: large;
+
+    padding-top: 5%;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+
+/*--------------------------*/
+
+
+.instaLinkBio a{
+    text-decoration: none; 
+    color: rgb(255, 131, 238); 
+}

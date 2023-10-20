@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    font-family: sans-serif;
+}
+
+main {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+header {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container {
+    position:absolute;
+    right: 0%;
+    margin: 20px;
+    width: auto;
+}
+
+footer{
+    margin-top: 20px;
+    color: aliceblue;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: rgb(26, 25, 25);
+}
+
+footer img{
+    float: right;
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0.1%;/*Mudei aqui*/
+
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin-left: 7%;
+}
+
+.imagemContato {
+    background-image: url("./imagens/Contato.jpg");
+
+    min-height: 380px;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+
+
+/*Unicas coisas que eu adicionei o resto ja sabe*/
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+form textarea {
+    height: 220px;
+}
+
+/* Style do Botao Submit */
+form input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
