@@ -4,7 +4,16 @@
 
 Felipe Porto Caldeira do Nascimento, 
 Alexandre Henning Wahl,
-Tiago Bittencourt
+Thiago Bittencourt Santana.
+
+# Wireframe 
+
+Focamos em utilizar, em ordem de prioridade: 
+1. estruturas especializadas do html.
+2. IDs.
+3. Classes.
+
+As estruturas especializadas foram utilizadas inicilmente para formar a logica basica do site. Quando necessitamos de uma flexibilidade maior, utilizamos classes para agrupar conjuntos de informações, e utilizamos IDs para alterar filhos especificos de estruturas quando os mesmos necessitavam de alterações especificas.
 
 
 
