@@ -112,3 +112,34 @@ table td {
 table tr:nth-child(odd) {
     background-color: #282828; 
 }
+
+.arrow {
+    display: inline-block;
+    margin-left: 5px;
+    border: solid #d600ba;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(26, 25, 25);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left; 
+}
+.dropdown{
+    float: right;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+
+#infoDropdown.active .arrow {
+    transform: rotate(-135deg);
+}

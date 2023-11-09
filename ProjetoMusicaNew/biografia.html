@@ -18,15 +18,24 @@
 
         <div class = "imagemBio" id="imgBio">
             <div class="container">
-            <nav>
-                <a href = "home.html">Home</a>
-                <a href = "discografia.html">Discografia</a>
-                <a href = "biografia.html">Biografia</a>
-                <a href = "cronograma.html">Cronograma</a>
-                <a href = "contato.html">Contato</a>
-            </nav>
-          </div>
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="discografia.html">Discografia</a>
+                    <a href="cronograma.html">Cronograma</a>
+                    <div class="dropdown">
+                        <a class="dropbtn" id="infoDropdown">
+                            INFO
+                            <span class="arrow"></span>
+                        </a>
+                        <div class="dropdown-content" id="infoDropdownContent">
+                            <a href="biografia.html">Biografia</a>
+                            <a href="contato.html">Contato</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
+        <script src = "dropdown.js"></script>
 
         
         <main>
