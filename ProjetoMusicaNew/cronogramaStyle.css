@@ -82,6 +82,10 @@ footer p{
     position: relative;
 }
 
+/*Alinha o texto da lista para a esquerda*/
+table ul{
+    text-align: left;
+}
 
 /* Estilo da tabela Unica coisa que fiz, o resto copiei do Thiago */
 table {
